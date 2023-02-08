@@ -45,13 +45,13 @@ def sp():
     f.write(ligne)
     f.close()
     return ligne
-
+    print("test2")
 
 def date():
     from datetime import datetime
     date_time = datetime.now()  # date actuelle
     return (date_time.strftime("%d-%m-%Y"))
-
+    print("test1")
 
 def cc():
     f = open(r"C:/home/user/Bureau/compte.txt", "a")

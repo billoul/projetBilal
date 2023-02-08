@@ -32,6 +32,7 @@ def dernier():
         last_line = lignes[-1].split(";")
     f.close()
     return last_line[0]
+    print("test3")
 
 
 def sp():

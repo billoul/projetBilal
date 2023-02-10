@@ -68,3 +68,6 @@ def cc():
     f.write(ligne)
     f.close()
     return ligne
+
+if __name__ == '__main__':
+    print('test')
